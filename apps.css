@@ -17,13 +17,18 @@
 }
 
 body {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-family: 'Epilogue', sans-serif;
     background-color: var(--hbb);
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    min-height: 100vh;
+    padding: 2rem;
 }
 
 h1 {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: var(--hbb);
     font-size: 2.2rem;
     text-transform: uppercase;
@@ -31,7 +36,6 @@ h1 {
 
 
 .container {
-    padding: 3rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 35%;
@@ -101,13 +105,12 @@ h1 {
 }
 
 .attribution {
-    margin-top: -18px;
+    margin-top: 2rem;
 }
 
 
 @media (min-width:835px) {
     .container {
-        margin-top: 40px;
         grid-template-columns: 23% 23% 23%;
         justify-content: center;
     }
@@ -135,12 +138,9 @@ h1 {
         border-bottom-left-radius: 0;
     }
 
-
-
     .attribution {
-        margin-top: 10px;
+        margin-top: 15 px;
     }
-
 
 }
 
