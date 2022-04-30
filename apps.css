@@ -68,7 +68,7 @@ h1 {
 
 .card p {
     color: var(--paragraphs);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-family: 'Epilogue', sans-serif;
     font-weight: lighter;
     line-height: 1.5rem;
